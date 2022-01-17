@@ -44,7 +44,7 @@ body
         border-radius: 16px 0px 16px 0px;
         border-bottom: 3px solid #DF8E00;
          color: #fff;
-    
+        cursor: pointer;
         font-size: 16px;
         font-weight: 300;
         transition: 0.2s ease-out;
@@ -52,6 +52,10 @@ body
         &::placeholder 
         {
             color: #fff;
+        }
+        &:focus{
+            border-radius: 0px 16px 0px 16px; 
+            background: #0004;  
         }
     }
     .location 

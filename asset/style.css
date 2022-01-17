@@ -7,8 +7,8 @@
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://swall.teahub.io/photos/small/13-131905_firewatch-wallpapers-olly-moss.png");
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("https://swall.teahub.io/photos/small/13-131905_firewatch-wallpapers-olly-moss.png");
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("asset/1.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("asset/1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -62,6 +62,7 @@ body {
   border-radius: 16px 0px 16px 0px;
   border-bottom: 3px solid #DF8E00;
   color: #fff;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 300;
   -webkit-transition: 0.2s ease-out;
@@ -82,6 +83,11 @@ body {
 
 .main__app .search::placeholder {
   color: #fff;
+}
+
+.main__app .search:focus {
+  border-radius: 0px 16px 0px 16px;
+  background: #0004;
 }
 
 .main__app .location {
