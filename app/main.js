@@ -40,7 +40,7 @@ const api = {
       hightLowWeather.innerText = ""
       presure.innerText = ""
       humidity.innerText = ""
-      document.body.style.background = "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url('https://images.hdqwalls.com/download/hiking-mountainscape-and-waterfall-minimal-8k-6e-1336x768.jpg') no-repeat  fixed,  center  "
+      document.body.style.background = "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url('asset/2.png') no-repeat  fixed,  center  "
       document.body.style.backgroundSize = "cover"
   }
   function displayResults(weather){
