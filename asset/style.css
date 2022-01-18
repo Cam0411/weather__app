@@ -145,7 +145,7 @@ body {
   font-weight: 700;
   position: absolute;
   left: 0;
-  bottom: 9.2%;
+  bottom: 8.4%;
   padding: 5px 10px;
   font-size: 30px;
 }
@@ -163,7 +163,7 @@ body {
 
 .main__app .weather__app .weather__sub {
   position: absolute;
-  bottom: 5.2%;
+  bottom: 5%;
   right: 0;
   padding: 5px 10px;
   display: -webkit-box;
